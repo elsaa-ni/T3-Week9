@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 85%;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+th {
+    background: #0072ff;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f4f7ff;
+}
+
+tr:hover {
+    background: #dbe9ff;
+    transition: 0.3s;
+}
+
+/* BARIS NILAI JELEK */
+.low {
+    background: #ffdddd !important;
+}
+
+/* WARNA GRADE */
+.grade {
+    font-weight: bold;
+}
+
+.grade:contains("A") { color: green; }
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer span {
+    color: #0072ff;
+}
